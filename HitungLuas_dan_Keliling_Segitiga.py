@@ -3,7 +3,7 @@ Tinggi = int(input("Masukan Tinggi : "))
 
 luas= 1/2 * Alas * Tinggi
 
-print("Luas dari Segitiga=" , luas)
+print("Luas dari Segitiga :%.0f"%(luas))
 
 sisiA = int(input("masukan sisi A : "))
 sisiB = int(input("masukan sisi B : "))
@@ -11,4 +11,4 @@ sisiC = int(input("masukan sisi C : "))
 
 KelilingSegitiga= sisiA + sisiB + sisiC
 
-print("Keliling dari segitiga adalah : " , KelilingSegitiga)
+print("Keliling dari segitiga adalah : %.0f"%(KelilingSegitiga))
